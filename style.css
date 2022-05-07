@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url('sunny.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main > section {
+  flex-grow: 1;
+}
+
+main > section:first-child {
+  flex-grow: 4;
+  display: flex;
+  align-items: flex-start;
+}
+
+section > section {
+  width: 20%;
+  height: 100%;
+  background-color: deeppink;
+}
+
+#currWeather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+  background: rgba(49, 50, 49, 0.1);
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: green;
+}
+
+#week {
+  padding: 2rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(49, 50, 49, 0.6);
+  margin-top: 2rem;
+}
+
+#convert {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem;
+  padding: 1rem;
+}

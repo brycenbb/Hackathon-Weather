@@ -5,7 +5,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: url('sunny.gif');
+  background: url('pexels-taryn-elliott-8549579.mp4');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,4 +68,12 @@ form {
   right: 0;
   margin: 2rem;
   padding: 1rem;
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
